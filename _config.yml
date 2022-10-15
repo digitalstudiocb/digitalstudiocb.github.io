@@ -55,7 +55,7 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-  - start
+  - dscb-server
   - nsx-rsync
   - nsx-ssh
   - dscb-push
