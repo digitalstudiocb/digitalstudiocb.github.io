@@ -55,3 +55,15 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - start
+  - nsx-rsync
+  - nsx-ssh
+
+host: docker.local
+
+exiftag:
+ sources:
+   - images/photography #Set to location of photos
+
+gallery:
+  uri: /images
