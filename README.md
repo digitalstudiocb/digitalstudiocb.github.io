@@ -1,2 +1,2 @@
 # digitalstudiocb.github.io
-Digital Studio Christian bacon
+Digital Studio Christian Bacon
