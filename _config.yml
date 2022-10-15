@@ -58,6 +58,7 @@ exclude:
   - start
   - nsx-rsync
   - nsx-ssh
+  - dscb-push
 
 host: docker.local
 
