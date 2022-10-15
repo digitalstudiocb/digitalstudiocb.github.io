@@ -56,8 +56,8 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - dscb-server
-  - nsx-rsync
-  - nsx-ssh
+  - dscb-rsync
+  - dscb-ssh
   - dscb-push
 
 host: docker.local
