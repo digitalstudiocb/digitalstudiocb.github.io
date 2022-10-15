@@ -60,6 +60,7 @@ exclude:
   - dscb-ssh
   - dscb-push
   - README.md
+  - README.txt
 
 host: docker.local
 
