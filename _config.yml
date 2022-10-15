@@ -59,12 +59,13 @@ exclude:
   - dscb-rsync
   - dscb-ssh
   - dscb-push
+  - README.md
 
 host: docker.local
 
 exiftag:
  sources:
-   - images/photography #Set to location of photos
+   - gallery/cover-magazine #Set to location of photos
 
 gallery:
-  uri: /images
+  uri: /gallery/cover-magazine
