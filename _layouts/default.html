@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>DIGITAL STUDIO CHRISTIAN BACON</title>
+		<title>{{ site.title | upcase }}</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="/assets/css/main.css" />
@@ -15,17 +15,9 @@
 		<!-- Intro -->
       {% include header_intro.html %}
 
-		<!-- One -->
-      {% include whatido.html %}
+    <!-- Contents -->
 
-		<!-- Two -->
-      {% include whoami.html %}
-
-		<!-- Work -->
-      {% include work.html %}
-
-		<!-- Contact -->
-      {% include contact.html %}
+    {{ content }}
 
 		<!-- Footer -->
       {% include footer.html %}
