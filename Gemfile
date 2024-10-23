@@ -39,7 +39,7 @@ gem "jekyll-sitemap", "~> 1.4"
 gem "exifr", "~> 1.3"
 
 gem "jekyll-minimagick", "~> 0.0.4"
-
+gem "faraday-retry"
 gem 'colorator', '~> 1.1'
 gem 'liquid', '~> 4.0'
 gem 'forwardable-extended', '~> 2.6'
