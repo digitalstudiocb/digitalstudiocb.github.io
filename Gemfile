@@ -21,7 +21,9 @@ group :jekyll_plugins do
   gem "jekyll-timeago", "~> 0.15"
 end
 
-gem 'faraday-retry', '~> 2.2', '>= 2.2.1'
+gem 'faraday', '~> 2.7', '>= 2.7.11'
+gem "github-pages", group: :jekyll_plugins
+gem "jekyll-include-cache", group: :jekyll_plugins
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.

@@ -34,6 +34,11 @@ github_username:  jekyll
 # theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
+  - gemfile
+
+show_downloads: true 
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
