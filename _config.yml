@@ -62,7 +62,7 @@ exclude:
   - README.md
   - README.txt
 
-host: docker.local
+# host: docker.local
 
 exiftag:
  sources:
