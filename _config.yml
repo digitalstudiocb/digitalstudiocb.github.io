@@ -96,10 +96,15 @@ sitemap:
 
 exiftag:
  sources:
-   - gallery/cover-magazine #Set to location of photos
+   - images/photography #Set to location of photos
 
-photo_dir: /photoshoot
-
-gallery:
-  uri: /gallery/cover-magazine
+mini_magick:
+    photography:
+        source: images/photography
+        destination: images/photography/thumbnails
+        resize: "1280x720"
+    headers:
+        source: images/headers
+        destination: images/headers/thumbnails
+        resize: "400x250"
 
