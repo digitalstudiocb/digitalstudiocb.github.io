@@ -98,6 +98,8 @@ exiftag:
  sources:
    - gallery/cover-magazine #Set to location of photos
 
+photo_dir: /photoshoot
+
 gallery:
   uri: /gallery/cover-magazine
 
