@@ -44,6 +44,7 @@ gem "jekyll-watch"
 gem "exifr", "~> 1.3"
 gem 'colorator', '~> 1.1'
 gem 'liquid', '~> 4.0'
+gem 'liquid-c'
 gem 'forwardable-extended', '~> 2.6'
 gem 'sass-listen', '~> 4.0.0'
 gem "activesupport", ">= 6.1.7.3"
