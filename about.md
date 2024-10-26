@@ -1,7 +1,6 @@
 ---
 layout: page
 title: About
-permalink: /about.html
 ---
 
 <section class="main style3 primary">
