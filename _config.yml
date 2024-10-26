@@ -97,6 +97,9 @@ exiftag:
 gallery:
   uri: /gallery/cover-magazine
 
+regenerate: true
+incremental: true
+
 #MiniMagick
 #https://github.com/zroger/jekyll-minimagick
 #mini_magick:
