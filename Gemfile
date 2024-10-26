@@ -40,10 +40,6 @@ gem "jekyll-sitemap", "~> 1.4"
 gem "jekyll-minimagick", "~> 0.0.4"
 gem "jekyll-sass-converter", "~> 1.5.2"
 
-gem 'jekyll-exiftag-mod.rb'
-gem 'jekyll-generate-thumbnails'
-gem 'jekyll-photo-gallery'
-
 gem "jekyll-watch"
 gem "exifr", "~> 1.3"
 gem 'colorator', '~> 1.1'
