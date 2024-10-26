@@ -42,13 +42,14 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 gem "webrick", "~> 1.8.2"
 gem "jekyll-sitemap", "~> 1.4"
-gem 'jekyll-photo-gallery', '~> 1.0', '>= 1.0.1'
-gem "exifr", "~> 1.3"
 gem "jekyll-minimagick", "~> 0.0.4"
+gem "jekyll-sass-converter", "~> 1.5.2"
+gem 'jekyll-photo-gallery', '~> 1.0', '>= 1.0.1'
+gem "jekyll-watch"
+gem "exifr", "~> 1.3"
 gem 'colorator', '~> 1.1'
 gem 'liquid', '~> 4.0'
 gem 'forwardable-extended', '~> 2.6'
-
 gem 'sass-listen', '~> 4.0.0'
 gem "activesupport", ">= 6.1.7.3"
 gem "addressable", ">= 2.8.0"
