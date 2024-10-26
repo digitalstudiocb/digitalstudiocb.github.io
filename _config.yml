@@ -45,7 +45,9 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-include-cache
-  - gemfile
+  - jekyll-photo-gallery
+# - gemfile
+ 
 
 show_downloads: true 
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
@@ -53,6 +55,9 @@ remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 collections:
    authors:
      output: true
+
+# Build settings
+markdown: kramdown
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -89,3 +94,15 @@ exiftag:
 
 gallery:
   uri: /gallery/cover-magazine
+
+#MiniMagick
+#https://github.com/zroger/jekyll-minimagick
+#mini_magick:
+#    photography:
+#        source: images/photography
+#        destination: images/photography/thumbnails
+#        resize: "1280x720"
+#    headers:
+#        source: images/headers
+#        destination: images/headers/thumbnails
+#        resize: "400x250"
