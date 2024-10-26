@@ -14,6 +14,8 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-timeago", "~> 0.15"
   gem "jekyll-include-cache"
+  gem "jekyll-docs"
+  gem "jekyll-import"
 end
 
 gem 'faraday', '~> 2.7', '>= 2.7.11'
