@@ -47,7 +47,9 @@ plugins:
   - jekyll-include-cache
   - jekyll-photo-gallery
 # - gemfile
- 
+
+whitelist:
+  - jekyll-photo-gallery
 
 show_downloads: true 
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
