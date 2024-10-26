@@ -7,7 +7,7 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 3.2.1"
+gem "jekyll", ">= 3.6.3"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima"
@@ -42,4 +42,8 @@ gem 'colorator', '~> 1.1'
 gem 'liquid', '~> 3.0'
 gem 'forwardable-extended', '~> 2.6'
 gem 'sass-listen', '~> 4.0.0'
+gem "activesupport", ">= 6.1.7.3"
+gem "addressable", ">= 2.8.0"
+gem "json", ">= 2.3.0"
 
+gem "kramdown", ">= 2.3.0"
