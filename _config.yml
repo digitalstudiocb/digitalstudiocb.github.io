@@ -98,17 +98,3 @@ exiftag:
 gallery:
   uri: /gallery/cover-magazine
 
-regenerate: true
-incremental: true
-
-#MiniMagick
-#https://github.com/zroger/jekyll-minimagick
-#mini_magick:
-#    photography:
-#        source: images/photography
-#        destination: images/photography/thumbnails
-#        resize: "1280x720"
-#    headers:
-#        source: images/headers
-#        destination: images/headers/thumbnails
-#        resize: "400x250"
