@@ -19,7 +19,7 @@ gem "minima", "~> 2.5"
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-timeago", "~> 0.15"
-  gem "github-pages"
+#  gem "github-pages"
   gem "jekyll-include-cache"
 end
 
