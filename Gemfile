@@ -41,4 +41,5 @@ gem "exifr", "~> 1.3"
 gem 'colorator', '~> 1.1'
 gem 'liquid', '~> 3.0'
 gem 'forwardable-extended', '~> 2.6'
+gem 'sass-listen', '~> 4.0.0'
 
