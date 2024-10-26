@@ -61,10 +61,6 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-  - dscb-server
-  - dscb-rsync
-  - dscb-ssh
-  - dscb-push
   - README.md
   - README.txt
 
