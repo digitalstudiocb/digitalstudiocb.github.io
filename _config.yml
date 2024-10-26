@@ -46,10 +46,13 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-exiftag-mod
+  - jekyll-generate-thumbnails
   - jekyll-photo-gallery
-# - gemfile
 
 whitelist:
+  - jekyll-exiftag-mod
+  - jekyll-generate-thumbnails
   - jekyll-photo-gallery
 
 show_downloads: true 
