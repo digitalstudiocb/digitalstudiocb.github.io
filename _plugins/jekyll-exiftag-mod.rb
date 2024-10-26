@@ -41,7 +41,7 @@ module Jekyll
         exif = EXIFR::JPEG::new(file_name)
         return tag.split('.').inject(exif){|o,m| o.send(m)}
       rescue
-        "ERROR, EXIF-Tag RB " + tag
+        "ERROR, EXIF-Tag RB"
       end
     end
 
