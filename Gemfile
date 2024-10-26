@@ -17,9 +17,7 @@ gem "minima"
 # gem "github-pages", group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.12"
   gem "jekyll-timeago", "~> 0.15"
-  gem "jekyll-include-cache"
   gem "github-pages"
 end
 
@@ -40,7 +38,6 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 gem 'faraday', '~> 2.7', '>= 2.7.11'
 gem "webrick", "~> 1.8.2"
 gem "exifr", "~> 1.3"
-gem "jekyll-minimagick", "~> 0.0.4"
 gem 'colorator', '~> 1.1'
 gem 'liquid', '~> 3.0'
 gem 'forwardable-extended', '~> 2.6'
