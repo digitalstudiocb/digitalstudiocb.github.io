@@ -8,6 +8,5 @@ title: Gallerie
    <header>
      <h2>Gallerie</h2>
    </header>
-   <p>{% includeGallery UsaSommer2015 %}</p>
   </div>
 </section>

@@ -46,10 +46,8 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-include-cache
-  - jekyll-exiftag-mod
-  - jekyll-generate-thumbnails
-  - jekyll-photo-gallery
 
+safe: true
 whitelist:
   - jekyll-exiftag-mod
   - jekyll-generate-thumbnails
@@ -97,6 +95,10 @@ sitemap:
 exiftag:
  sources:
    - images/photography #Set to location of photos
+
+gallery:
+ uri: gallery/cover-magazine
+ 
 
 mini_magick:
     photography:
