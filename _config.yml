@@ -46,7 +46,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-include-cache
-  - foo
 
 show_downloads: true 
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
