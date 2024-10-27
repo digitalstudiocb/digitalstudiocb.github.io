@@ -14,9 +14,9 @@ group :jekyll_plugins do
   gem "jekyll-feed"
   gem "jekyll-timeago"
   gem "jekyll-include-cache"
-#  gem "jekyll-docs"
-#  gem "jekyll-import"
-#  gem "jekyll-sitemap"
+  gem "jekyll-docs"
+  gem "jekyll-import"
+  gem "jekyll-sitemap"
   gem "jekyll-minimagick", github: "benubois/jekyll-minimagick", branch: "patch-1"
 end
 
