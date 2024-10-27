@@ -15,8 +15,8 @@ group :jekyll_plugins do
   gem "jekyll-timeago"
   gem "jekyll-include-cache"
   gem "jekyll-docs"
-  gem "jekyll-import"
-  gem "jekyll-sitemap"
+#  gem "jekyll-import"
+#  gem "jekyll-sitemap"
   gem "jekyll-minimagick"
 end
 
