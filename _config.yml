@@ -46,12 +46,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-include-cache
-
-safe: true
-whitelist:
-  - jekyll-exiftag-mod
-  - jekyll-generate-thumbnails
-  - jekyll-photo-gallery
+  - foo
 
 show_downloads: true 
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
