@@ -8,6 +8,6 @@ title: Gallerie
    <header>
      <h2>Gallerie</h2>
    </header>
-  <p>{% foo UsaSommer2015 %}</p>
+  <p><!-- {% foo UsaSommer2015 %} --></p>
   </div>
 </section>
