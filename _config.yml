@@ -86,8 +86,7 @@ exiftag:
 gallery:
  uri: gallery/cover-magazine
  
-photodir:
-   - photoshoot
+photo_dir: photoshoot
 
 mini_magick:
     photography:
