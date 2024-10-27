@@ -11,8 +11,8 @@ gem "minima", "~> 2.5"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.12"
-  gem "jekyll-timeago", "~> 0.15"
+  gem "jekyll-feed"
+  gem "jekyll-timeago"
   gem "jekyll-include-cache"
   gem "jekyll-docs"
   gem "jekyll-import"
@@ -46,6 +46,7 @@ gem "activesupport", ">= 6.1.7.3"
 gem "addressable", ">= 2.8.0"
 gem "json", ">= 2.3.0"
 gem "kramdown", ">= 2.3.0"
+gem "kramdown-parser-gfm" 
 gem "rouge"
 # _plugins/readingtime.rb
 gem 'readingtime', '~> 0.4.0'
