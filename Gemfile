@@ -41,7 +41,7 @@ gem "jekyll-sass-converter", "~> 1.5.2"
 gem "jekyll-watch"
 gem "exifr"
 gem 'colorator', '~> 1.1'
-gem 'liquid', '~> 4.0'
+# gem 'liquid', '~> 4.0'
 gem 'forwardable-extended', '~> 2.6'
 gem 'sassc'
 gem "activesupport", ">= 6.1.7.3"
