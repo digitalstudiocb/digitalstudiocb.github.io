@@ -48,5 +48,4 @@ gem "json", ">= 2.3.0"
 gem "kramdown", ">= 2.3.0"
 gem "kramdown-parser-gfm" 
 gem "rouge"
-# _plugins/readingtime.rb
 gem 'readingtime', '~> 0.4.0'
