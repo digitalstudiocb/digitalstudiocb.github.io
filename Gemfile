@@ -38,6 +38,7 @@ gem 'faraday-retry', '~> 1.0'  # Add this line
 # gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 gem "webrick", "~> 1.8.2"
+gem "csv"
 gem "exifr"
 gem 'colorator', '~> 1.1'
 gem 'forwardable-extended', '~> 2.6'
