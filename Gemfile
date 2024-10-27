@@ -42,7 +42,6 @@ gem "jekyll-watch"
 gem "exifr"
 gem 'colorator', '~> 1.1'
 gem 'liquid', '~> 4.0'
-gem 'liquid-c'
 gem 'forwardable-extended', '~> 2.6'
 gem 'sass-listen', '~> 4.0.0'
 gem "activesupport", ">= 6.1.7.3"
@@ -50,3 +49,4 @@ gem "addressable", ">= 2.8.0"
 gem "json", ">= 2.3.0"
 gem "kramdown", ">= 2.3.0"
 gem 'github-linguist'
+gem "rouge"
