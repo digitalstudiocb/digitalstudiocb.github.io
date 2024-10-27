@@ -79,12 +79,6 @@ exclude:
   - README.md
   - README.txt
 
-#sitemap:
-# exclude:
-#    - /about.html
-# include:
-#    - /
-
 exiftag:
  sources:
    - images/photography #Set to location of photos
@@ -92,6 +86,8 @@ exiftag:
 gallery:
  uri: gallery/cover-magazine
  
+photodir:
+   - photoshoot
 
 mini_magick:
     photography:
