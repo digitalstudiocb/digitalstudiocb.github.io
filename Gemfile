@@ -43,7 +43,8 @@ gem "exifr"
 gem 'colorator', '~> 1.1'
 gem 'liquid', '~> 4.0'
 gem 'forwardable-extended', '~> 2.6'
-gem 'sass-listen', '~> 4.0.0'
+#gem 'sass-listen', '~> 4.0.0'
+gem 'sassc'
 gem "activesupport", ">= 6.1.7.3"
 gem "addressable", ">= 2.8.0"
 gem "json", ">= 2.3.0"
