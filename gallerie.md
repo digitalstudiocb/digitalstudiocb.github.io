@@ -8,7 +8,12 @@ title: Gallerie
    <header>
      <h2>Gallerie</h2>
    </header>
-  <p>{{ site.static_files }}</p><br>
-  <p></p>
+  <br>
+  <p>
+{% assign image_files = site.static_files | where: "image", true %}
+{% for myimage in image_files %}
+  {{ myimage.path }}
+{% endfor %}
+</p>
   </div>
 </section>
