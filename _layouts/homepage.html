@@ -1,11 +1,18 @@
+{% assign site = site.data.site %}
+{% assign social = site.data.social %}
+{% assign work = site.data.work %}
+{% assign whatido = site.data.whatido %}
+{% assign whoami = site.data.whoami %}
+{% assign assets = site.config.assets_url %}
+
 <!DOCTYPE HTML>
 <html>
 	<head>
 		<title>{{ site.title | upcase }}</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <link rel="stylesheet" href="/assets/css/main.css" />
-    <noscript><link rel="stylesheet" href="/assets/css/noscript.css"  /></noscript>
+    <link rel="stylesheet" href="{{ assets }}/css/main.css" />
+    <noscript><link rel="stylesheet" href="{{ assets }}/css/noscript.css"  /></noscript>
 	</head>
 	<body class="is-preload">
 

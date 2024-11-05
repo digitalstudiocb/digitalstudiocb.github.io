@@ -36,6 +36,9 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
+config.assets_dir: assets
+asset_url: "/assets"
+
 twitter_username: jekyllrb
 github_username:  jekyll
 
@@ -84,7 +87,7 @@ exiftag:
    - images/photography #Set to location of photos
 
 gallery:
- uri: gallery/cover-magazine
+  uri: gallery/cover-magazine
  
 photo_dir: photography
 
