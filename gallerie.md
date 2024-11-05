@@ -8,7 +8,7 @@ title: Gallerie
    <header>
      <h2>Gallerie</h2>
    </header>
-  <p>{% foo Information:  %}</p><br>
-  <p>{% includeGallery UsaSommer2015 %}</p>
+  <p>{{ site.static_files }}</p><br>
+  <p></p>
   </div>
 </section>
